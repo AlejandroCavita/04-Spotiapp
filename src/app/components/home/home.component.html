@@ -1,1 +1,4 @@
-<p>home works!</p>
+<app-loading *ngIf="loading"></app-loading>
+
+
+<app-tarjetas *ngIf="!loading" [items]='nuevasCanciones'></app-tarjetas>
